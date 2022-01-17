@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative-absolute</title>
+    <style>
+
+        .box{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+
+        }
+        .container{
+            position: relative;
+            border: black 2px solid;
+        }
+        #box-1{
+            background-color: rgb(205, 255, 208);
+             position: absolute;
+            left: 50px;
+        }
+        #box-2{
+            background-color: blanchedalmond;
+            position: relative;
+            top: 20px;
+            left: 20px;
+        }
+        #box-3{
+            background-color: rgb(205, 208, 255);
+           
+        }
+        #box-4{
+            background-color: rgb(255, 205, 222);
+        }
+    </style>
+</head>
+<body>
+<h1>Explore realtive and absolute one more time</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae laborum libero nihil quia ad deleniti, dignissimos hic praesentium nemo eveniet.</p>
+<div class="container">
+    <div id="box-1" class="box">Box-1</div>
+    <div id="box-2" class="box">Box-2</div>
+    <div id="box-3" class="box">Box-3</div>
+    <div id="box-4" class="box">Box-4</div>
+</div>
+    
+</body>
+</html>

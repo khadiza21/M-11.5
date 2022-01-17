@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsiveness</title>
+    <style>
+        .welcome-mesage{
+            height:200px ;
+            background-color: blanchedalmond;
+        }
+        @media only screen and (max-width:688px){
+            .welcome-mesage{
+                background-color: cadetblue;
+                text-align: center;
+                height: 400px;
+            }
+        }
+        @media only screen and (max-width:689px) and (max-width:992px){
+            .welcome-mesage{
+                background-color: rgb(160, 124, 95);
+                text-align: right;
+                height: 600px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="welcome-mesage">
+            <h1>
+                Welcome to our site
+            </h1>
+        </div>
+    </header>
+</body>
+</html>
